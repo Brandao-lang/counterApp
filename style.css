@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+button, h1 {
+    display:inline;
+    margin:15px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#increment {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid orange;
+    font-size: 2rem;
+    padding: 10px 25px;
+}
+
+input, label {
+    display:inline-block
+}
+
+label {
+    margin-top: 1em;
+}
+
